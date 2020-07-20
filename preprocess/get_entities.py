@@ -31,9 +31,7 @@ from nltk.tokenize import word_tokenize
 
 def get_entities(train):
     train_en= []
-    test_en = []
     train_pos = []
-    test_pos = []
     for i in range(len(train)):
         tokens = nltk.word_tokenize(train[i])
         pos = nltk.pos_tag(tokens)

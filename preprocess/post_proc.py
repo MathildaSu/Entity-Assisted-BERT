@@ -80,3 +80,5 @@ if __name__ == "__main__":
 # import pickle
 # with open('/nfs/CLEF_coref_post/20160303_GOP_michigan_coref.pkl','rb') as f:
 #     data = pickle.load(f)
+
+# tree = git log --graph --decsorate --pretty=format:'%C(bold yellow)%h%Creset -%C(auto)%d %s %C(bold cyan)(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
